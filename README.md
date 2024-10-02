@@ -67,3 +67,4 @@ vi index.html
 docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx
 ```
 ### 20.Visit the website
+### 21.On the instance dashboard click on terminate running instance  
