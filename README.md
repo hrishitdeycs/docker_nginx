@@ -34,6 +34,7 @@ docker pull nginx
 ```bash
 docker run --name docker-nginx -p 80:80 nginx
 ```
+### 18.Use the following commands 
 ```bash
 ctrl + c
 ```
@@ -52,6 +53,7 @@ docker stop docker-nginx
 ```bash
 docker rm docker-nginx
 ```
+### 19.Use the following html commands
 ```bash
 mkdir -p ~/docker-nginx/html
 ```
@@ -64,3 +66,4 @@ vi index.html
 ```bash
 docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx
 ```
+### 20.Visit the website
